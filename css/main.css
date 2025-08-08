@@ -3,6 +3,17 @@
     margin: 0;
     box-sizing: border-box;
  }
+ a {
+    text-decoration: none;
+    color: brown;
+ }
+.nav-bar {
+    width: 100%;
+    height: 80px;
+}
+ li {
+    list-style: none;
+ }
  /* CONTAINER */
 .container {
     /* Debug */
@@ -14,11 +25,11 @@ main {
     height: calc(100vh - 80px);
     background-image: url(../img/sfondo.jpg);
 }
-.header-pagina {
+.sfondo-header {
     height: 80px;
     width: 100%;
     background-image: url(../img/navbar-sfondo.avif);
-    opacity: 0.8;
+/*     opacity: 0.8; */
 }
 .logo {
     height: 75px;
@@ -31,4 +42,9 @@ main {
     width: 400px;
     height: 60px;
     background-color: blue;
+}
+.box-nav {
+    /* Debug */
+    background-color: blue;
+    height: 70px;
 }
