@@ -17,12 +17,12 @@
  /* CONTAINER */
 .container {
     /* Debug */
-    height: 100vh;
+    height: 200vh;
     width: 100%;
     background-color: aqua;
 }
 main {
-    height: calc(100vh - 80px);
+    height: calc(100% - 80px);    
     background-image: url(../img/sfondo.jpg);
 }
 .sfondo-header {
@@ -47,4 +47,25 @@ main {
     /* Debug */
     background-color: blue;
     height: 70px;
+}
+.card {
+    border: 2px solid black;
+    /* Debug */
+    background-color: blue;
+    width: 250px;
+    height: 300px;
+}
+.img-card {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.box-img {
+    width: 100%;
+    height: 350px;
+}
+.col-tipologia {
+    border: 3px solid black;
+    background-color: white;
+    border-radius: 25px;
 }
