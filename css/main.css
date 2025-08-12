@@ -21,14 +21,14 @@
 .container {
     /* Debug */
     width: 100%;
-/*     background-color: aqua;
- */}
+    background-color: aqua;
+}
 main {
 /*     height: calc(100% - 80px);  */   
     background-image: url(../img/sfondo.jpg);
 }
 .sfondo-header {
-    height: 80px;
+    height: 100px;
     width: 100%;
     background-color: black;
 }
@@ -71,6 +71,24 @@ main {
     border-radius: 25px;
     margin-top: 20px;
 }
+
+/* SIDEBAR */
+.sidebar {
+    width: 200px;
+    background-color: black;
+    height: 100%;
+    color: white;
+}
+.card-sidebar {
+/*     width: 100%;
+    height: 200px; */
+}
+.img-card-sidebar {
+    width: 100%;
+    height: 100%;
+}
+
+/* FOOTER */
 .footer {
     height: 100px;
     background-image: url(../img/navbar-sfondo.avif);
