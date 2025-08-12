@@ -2,10 +2,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
  }
  a {
     text-decoration: none;
-    color: brown;
+    color: white;
  }
 .nav-bar {
     width: 100%;
@@ -17,19 +20,17 @@
  /* CONTAINER */
 .container {
     /* Debug */
-    height: 200vh;
     width: 100%;
-    background-color: aqua;
-}
+/*     background-color: aqua;
+ */}
 main {
-    height: calc(100% - 80px);    
+/*     height: calc(100% - 80px);  */   
     background-image: url(../img/sfondo.jpg);
 }
 .sfondo-header {
     height: 80px;
     width: 100%;
-    background-image: url(../img/navbar-sfondo.avif);
-/*     opacity: 0.8; */
+    background-color: black;
 }
 .logo {
     height: 75px;
@@ -41,11 +42,11 @@ main {
     /* Debug */
     width: 400px;
     height: 60px;
-    background-color: blue;
-}
+/*     background-color: blue;
+ */}
 .box-nav {
     /* Debug */
-    background-color: blue;
+    /* background-color: blue; */
     height: 70px;
 }
 .card {
@@ -68,4 +69,10 @@ main {
     border: 3px solid black;
     background-color: white;
     border-radius: 25px;
+    margin-top: 20px;
+}
+.footer {
+    height: 100px;
+    background-image: url(../img/navbar-sfondo.avif);
+    background-size: contain;
 }
