@@ -37,13 +37,17 @@ main {
 .sfondo-header {
     height: 100px;
     width: 100%;
-    background-color: black;
+    background-image: url(../img/onde\ x\ header.webp);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 95%);
+}
+.titolo-tipologie {
+        background: linear-gradient(to bottom, rgb(0 0 0 / 0%) 0%, rgb(50 50 50) 95%);
 }
 .logo {
     height: 75px;
     width: 75px;
     border-radius: 50%;
-    border: 3px solid red;
+    border: 3px solid chocolate;
 }
 .box-header {
     /* Debug */
@@ -76,10 +80,17 @@ main {
     border-radius: 25px;
     margin-top: 20px;
 }
+.col-tipologia:hover {
+        background: linear-gradient(to top, rgb(255, 255, 255) 0%, rgb(116, 116, 116) 80%);
+
+}
 
 /* FOOTER */
 .footer {
     height: 100px;
     background-image: url(../img/navbar-sfondo.avif);
     background-size: contain;
+}
+.box-nav a:hover {
+    text-decoration: underline;
 }
